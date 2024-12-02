@@ -1,0 +1,15 @@
+<%- include("./partials/header.ejs") %>
+    <div class="centeredForm">
+        <h1 class="centeredElement">
+            Log in
+        </h1>
+        <form class="centeredElement" method="POST" action="/login">
+            <label for="uname">Username: </label><br>
+            <input type="text" name="uname" id="uname"><br>
+            <label for="passwd">Password: </label><br>
+            <input type="password" name="passwd" id="passwd"><br>
+            <input type="submit" value="Sign In">
+        </form>
+        <a class="centeredElement" href="/register">Register</a>
+    </div>
+<%- include("./partials/footer.ejs") %>
