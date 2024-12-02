@@ -1,0 +1,23 @@
+{
+  "name": "plant_shop",
+  "version": "1.0.0",
+  "description": "My personal Node JS plant shop project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhubskyi/plant_shop.git"
+  },
+  "keywords": [
+    "plant",
+    "shop"
+  ],
+  "author": "Denys Hubskyi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dhubskyi/plant_shop/issues"
+  },
+  "homepage": "https://github.com/dhubskyi/plant_shop#readme"
+}
